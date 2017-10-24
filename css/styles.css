@@ -1,0 +1,12 @@
+html {
+  background-color: #bec4ce;
+}
+#my-canvas {
+  height:75vh;
+  width: 75vw;
+  left: 12%;
+  position: relative;
+}
+.header-text {
+  text-align: center;
+}
