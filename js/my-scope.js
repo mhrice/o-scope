@@ -54,9 +54,13 @@ analyser.smoothingTimeConstant = 0.85;
 function draw(){
 
 
-
-
+if(!isPaused){
   animate = window.requestAnimationFrame(draw);
+
+}
+
+  // animate = window.requestAnimationFrame(draw);
+
 
 
 
@@ -124,4 +128,15 @@ var sliceWidth = WIDTH * 1.0 / bufferLength;
   //
   // canvasCtx.stroke();
 
+};
+
+//Button Pauses
+document.getElementById('button').onclick = function() {
+   if(!isPaused) {
+     isPaused = true;
+   }
+   else {
+     isPaused = false;
+     draw();
+   }
 };

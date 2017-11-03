@@ -10,3 +10,8 @@ html {
 .header-text {
   text-align: center;
 }
+#button {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+}
