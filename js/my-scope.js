@@ -42,7 +42,7 @@ analyser.smoothingTimeConstant = 0.85;
       // inputStream.connect(analyser);
       microphone.connect(analyser);
       bufferLength = analyser.frequencyBinCount;
-      analyser.connect(audioCtx.destination);
+      // analyser.connect(audioCtx.destination);
       // analyser.getFloatTimeDomainData(dataArray);
 
       }, (err)=>{
